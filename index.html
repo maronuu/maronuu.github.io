@@ -109,10 +109,16 @@
               Tokyo,
               Part-time</p>
             <p class="languageSwitch" lang="EN">
-
+              Working on the development of <a href="https://github.com/m3dev/kannon" target="_blank">kannon</a>, a new
+              OSS library for
+              parallel and distributed execution of <a href="https://github.com/m3dev/gokart"
+                target="_blank">gokart</a>, <br>
+              which is an OSS for machine learning pipelines, on Kubernetes. <br>
             </p>
             <p class="languageSwitch" lang="JP">
-
+              機械学習パイプラインのOSSである<a href="https://github.com/m3dev/gokart"
+                target="_blank">gokart</a>を、Kubernetes上で並列分散実行するための新しいOSSライブラリである<a
+                href="https://github.com/m3dev/kannon" target="_blank">kannon</a>の開発に取り組んでいます。
             </p>
           </div>
         </div>
@@ -135,6 +141,8 @@
               <a href="https://github.com/m3dev/kannon" target="_blank">kannon</a> was released as OSS and has been
               under continuous development since the end of my internship. <br>
               I completed the development from the start to the first release in 10 days of internship. <br>
+              I wrote an <a href="https://www.m3tech.blog/entry/2023/03/14/180137">internship report</a> in
+              Japanese.<br>
             </p>
             <p class="languageSwitch" lang="JP">
               機械学習パイプラインのためのOSSである<a href="https://github.com/m3dev/gokart"
@@ -142,6 +150,7 @@
                 target="_blank">kannon</a>を開発しました。<br>
               <a href="https://github.com/m3dev/kannon" target="_blank">kannon</a>はOSSとして公開され、インターン終了後も継続的に開発しています。<br>
               開発開始から設計、実装、最初のリリースまでを10日のインターン期間で行いました。<br>
+              <a href="https://www.m3tech.blog/entry/2023/03/14/180137">インターンレポート</a>を書きました。<br>
             </p>
           </div>
         </div>
@@ -283,11 +292,69 @@
 
 
     <section class="section" id="works">
-      <h2>Project</h2>
+      <h2>Projects & Contributions</h2>
       <div class="box">
         <div class="item">
-          <!-- <img src="static/img/" alt="Works Icon"> -->
-          <div>TODO
+          <img src="static/img/works/k8s.webp" alt="Works Icon">
+          <div>
+            <h3><a href="https://github.com/m3dev/kannon">kannon</a></h3>
+            <p class="languageSwitch" lang="EN">
+              A library to execute gokart Tasks on Kubernetes in a parallel and distributed manner with only minor
+              changes. <br>
+              I wrote an <a href="https://www.m3tech.blog/entry/2023/03/14/180137">detailed article</a> in Japanese.<br>
+              I presented at <a href="https://k8s-novice-jp.connpass.com/event/278196/">k8s novice Tokyo #24</a>.<br>
+            </p>
+            <p class="languageSwitch" lang="JP">
+              gokartのTaskをKubernetes上で並列・分散実行するためのライブラリです。ほんの少しのコードの変更だけで簡単に並列分散化することができます。<br>
+              日本語で詳細な<a href="https://www.m3tech.blog/entry/2023/03/14/180137">解説記事</a>を書きました。<br>
+              <a href="https://k8s-novice-jp.connpass.com/event/278196/">k8s novice Tokyo #24</a> にて発表しました。<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="item">
+          <img src="static/img/works/clang.png" alt="Works Icon">
+          <div>
+            <h3><a href="https://github.com/maronuu/SimpleDebugger">Self-made Debugger using ptrace</a></h3>
+            <p class="languageSwitch" lang="EN">
+              A simple debugger implemented in C using `ptrace` system call. It can attach to a process and display the
+              state of register.<br>
+              I wrote a detailed explanation <a href="https://zenn.dev/irugo/articles/49b3f66efaddf6">article</a> in
+              Japanese.<br>
+            </p>
+            <p class="languageSwitch" lang="JP">
+              ptraceシステムコールを用いた簡易的なデバッガを自作しました。C言語で実装されています。Breakpointにおけるレジスタの中身を見ることができます。<br>
+              日本語で詳細な<a href="https://zenn.dev/irugo/articles/49b3f66efaddf6">解説記事</a>を書きました。<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="item">
+          <img src="static/img/works/python.png" alt="Works Icon">
+          <div>
+            <h3><a href="https://github.com/doss-eeic/2022-02-cpython">More functional style CPython</a></h3>
+            <p class="languageSwitch" lang="EN">
+              I implemented a new feature to CPython's List to make it more functional style. <br>
+              I wrote a detailed explanation <a href="https://zenn.dev/irugo/articles/49b3f66efaddf6">article</a> in
+              Japanese.<br>
+            </p>
+            <p class="languageSwitch" lang="JP">
+              CPythonのListをより関数型的に扱うための新機能を実装しました。<br>
+              日本語で詳細な<a href="https://zenn.dev/irugo/articles/06a67373aa713a">解説記事</a>を書きました。<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="item">
+          <img src="static/img/works/cupy.png" alt="Works Icon">
+          <div>
+            <h3><a href="https://github.com/cupy/cupy/pull/7015">Cupy: 1 Contribution</a></h3>
+            <p>
+              Contributed to CuPy, a NumPy-compatible array library accelerated by CUDA. <br>
+            </p>
           </div>
         </div>
       </div>
